@@ -281,7 +281,7 @@ With constants $\lambda_1,\lambda_2 >0$, and where the second term performs $L_2
 
 \begin{remark}[1]
   We can reformulate the MTL regularizer in the form of $\bar{\mathcal R}(\mathbf w, \bar{\boldsymbol\Omega}) = \mathcal R( \mathbf W, \boldsymbol\Omega$), where
-  $\mathbf w \in \mathbb R^{md}$ is a vector containing the columns of $\mathbf W$ and $\boldsymbol \Omega  := \boldsymbol\Omega \otimes \mathbf I_{d×d} \in \mathbb R^{md\times md}$
+  $\mathbf w \in \mathbb R^{md}$ is a vector containing the columns of $\mathbf W$ and $ \bar{\boldsymbol \Omega}  := \boldsymbol\Omega \otimes \mathbf I_{d×d} \in \mathbb R^{md\times md}$
   . For example, we can rewrite the regularizer in (2) as $\bar{\mathcal R}( \mathbf w,\bar{\boldsymbol \Omega} ) = tr(\mathbf w^T (\lambda_1 \bar{\boldsymbol\Omega}+ \lambda_2 \mathbf I) \mathbf w)$. Writing the regularizer
   in this form, it is clear that it is strongly convex with respect to matrix $\mathbf M^{−1} = \lambda_1 \bar{\boldsymbol\Omega}+ \lambda_2 \mathbf I$.
 \end{remark}
